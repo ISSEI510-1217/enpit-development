@@ -1,3 +1,4 @@
+package loin;
 public class CaluculateDragonfruit {
     int dfsumvalue(int sumdf){
         int dfvalue = 400;

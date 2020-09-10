@@ -1,3 +1,4 @@
+package loin;
 //購入者は100円玉を1つ渡す
 //package 1;
 import java.util.Scanner;

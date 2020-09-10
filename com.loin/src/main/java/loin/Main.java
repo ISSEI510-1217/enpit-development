@@ -1,3 +1,4 @@
+package loin;
 //import java.util.Scanner;
 //package 1;
 public class Main {
