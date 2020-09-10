@@ -9,6 +9,9 @@ public class Main {
         //issue2
         ApplesCount appc = new ApplesCount();
         CaluculateApple calapp = new CaluculateApple();
-        calapp.applesumvalue(appc.applenum());
+        // calapp.applesumvalue(appc.applenum());
+        Pay pay =  new Pay();
+        int sample_applenum = appc.applenum();
+        pay.pay_apple(calapp.applesumvalue(sample_applenum), sample_applenum);
     }
 }
