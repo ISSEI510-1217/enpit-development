@@ -1,9 +1,9 @@
 # enpit-development
 ## Product Code and Test Code
 ###### Product Code
- -> main/2/src/main/java/3/*
+ -> com.loin/src/main/java/loin/*
 ###### Test Code
- -> main/2/src/test/java/3/*
+ -> com.loin/src/test/java/loin/AppTest.java
 ## Product Backlog (To Do or Doing)
 - [ ] 5. お客さんはしゃけ弁当を1つ390円で買うことができる
 
@@ -37,4 +37,4 @@
   - [x] 2.合計金額もわかる
 
 ###### 最終更新日時
-　2020/9/10 12:17
+　2020/9/10 15:43
