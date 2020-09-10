@@ -1,4 +1,4 @@
-//package 1;
+package loin;
 import java.util.Scanner;
 public class ApplesCount {
     int applenum() {

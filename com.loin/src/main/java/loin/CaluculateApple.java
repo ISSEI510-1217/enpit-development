@@ -1,4 +1,4 @@
-//package 3;
+package loin;
 
 public class CaluculateApple {
     int applesumvalue(int sumapple){

@@ -1,3 +1,4 @@
+package loin;
 //ドラゴンフルーツの購入
 
 //num_dragonfruit = ドラゴンフルーツの個数
