@@ -9,9 +9,9 @@ import java.util.Scanner;
 class Pay{
     int num1; 
     int all_value;
-    void pay_apple(int sum_apple_value, int sum_apple, int sum_df_value, int sum_df) {
+    void pay_apple(int sum_apple_value, int sum_apple, int sum_df_value, int sum_df, int sum_sb_value, int sum_sb) {
         Scanner scanner = new Scanner(System.in);
-        all_value = sum_apple_value + sum_df_value;
+        all_value = sum_apple_value + sum_df_value + sum_sb_value;
         System.out.print("合計金額は" + all_value + "円です\n");
         while(true){
             System.out.print(all_value + "円を入れてください: ");
@@ -19,12 +19,14 @@ class Pay{
             if(num1 > all_value) {
                 System.out.println("りんごを" + sum_apple + "個購入しました");
                 System.out.println("ドラゴンフルーツを" + sum_df + "個購入しました");
+                System.out.println("しゃけ弁当を" + sum_sb + "個購入しました");
                 int change = num1 - all_value;
                 System.out.println("お釣りが" + change + " 円です");
                 break;
             } else if(num1 == all_value) {
                 System.out.println("りんごを" + sum_apple + "個購入しました");
                 System.out.println("ドラゴンフルーツを" + sum_df + "個購入しました");
+                System.out.println("しゃけ弁当を" + sum_sb + "個購入しました");
                 System.out.println("お釣りはありません");
                 break;
             } else {
