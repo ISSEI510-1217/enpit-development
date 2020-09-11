@@ -22,6 +22,7 @@ public class Main {
         Food food = new Food();
         FoodSubtotal foodsubtotal = new FoodSubtotal();
         Pay pay =  new Pay();
+        System.out.println("りんごは3個毎に20円引きです");
         int num_apple = food.applenum();
         int num_dragonfruit = food.dragonfruitnum();
         int num_shakebento = food.shakebentonum();
