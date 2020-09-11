@@ -5,22 +5,6 @@ package loin;
 public class Main {
     public static void main(String[] args) {
 
-        // //issue3and4
-        // ApplesCount appc = new ApplesCount();
-        // Dragonfruit drac = new Dragonfruit();
-        // Bento bento = new Bento();
-        // CaluculateApple calapp = new CaluculateApple();
-        // CaluculateDragonfruit caldf = new CaluculateDragonfruit();
-        // CaluculateShakebento calsb = new CaluculateShakebento();
-        // Pay pay = new Pay();
-
-        // int sample_applenum = appc.applenum();
-        // int num_dragonfruit = drac.dragonfruitnum();
-        // int num_shakebento = bento.shakebentonum();
-        // pay.pay_apple(calapp.applesumvalue(sample_applenum), sample_applenum,
-        // caldf.dfsumvalue(num_dragonfruit), num_dragonfruit,
-        // calsb.shakebensumvalue(num_shakebento), num_shakebento);
-
         // issue5 refactoring
         Scan scan = new Scan();
         Food food = new Food();
@@ -64,11 +48,6 @@ public class Main {
                     break;
             }
         }
-        
-        // System.out.println("りんごは3個毎に20円引きです");
-        // foodsubtotal.applesumvalue(num_apple);
-        // foodsubtotal.dfsumvalue(num_dragonfruit);
-        // foodsubtotal.shakebensumvalue(num_shakebento);
         pay.pay_apple(foodsubtotal.applesumvalue(num_apple), num_apple, foodsubtotal.dfsumvalue(num_dragonfruit),
                 num_dragonfruit, foodsubtotal.shakebensumvalue(num_shakebento), num_shakebento,
                 foodsubtotal.mixjuicevalue(num_mixjuice), num_mixjuice);
