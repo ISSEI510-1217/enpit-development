@@ -3,7 +3,8 @@ package loin;
 public class FoodSubtotal extends Caluculate{
     int applesumvalue(int num_apple) {
         int apple_value =super.caluculate(num_apple, 100, "りんご", "個");
-        return apple_value;
+        int apple_discount = super.discount(num_apple, 3, 20);
+        return apple_value - apple_discount;
     }
 
     int dfsumvalue(int num_df) {
