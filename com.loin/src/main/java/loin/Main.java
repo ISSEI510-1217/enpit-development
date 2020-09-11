@@ -25,9 +25,10 @@ public class Main {
         int num_apple = food.applenum();
         int num_dragonfruit = food.dragonfruitnum();
         int num_shakebento = food.shakebentonum();
+        int num_mixjuice = food.mixjuicenum();
         // foodsubtotal.applesumvalue(num_apple);
         // foodsubtotal.dfsumvalue(num_dragonfruit);
         // foodsubtotal.shakebensumvalue(num_shakebento);
-        pay.pay_apple(foodsubtotal.applesumvalue(num_apple), num_apple, foodsubtotal.dfsumvalue(num_dragonfruit), num_dragonfruit, foodsubtotal.shakebensumvalue(num_shakebento), num_shakebento);
+        pay.pay_apple(foodsubtotal.applesumvalue(num_apple), num_apple, foodsubtotal.dfsumvalue(num_dragonfruit), num_dragonfruit, foodsubtotal.shakebensumvalue(num_shakebento), num_shakebento, foodsubtotal.mixjuicevalue(num_mixjuice), num_mixjuice);
     }
 }
