@@ -12,4 +12,10 @@ public class Caluculate {
         // System.out.println("りんごが" + num + "個なので" + dis_apple + "円引きです");
         return dis_apple;
     }
+    
+    int consumptionTax(int value, int rate) {
+        double tax = Math.ceil( (double)value * rate/100);
+        return (int)tax;
+    }
+    
 }
