@@ -5,7 +5,7 @@
 ###### Test Code
  -> com.loin/src/test/java/loin/AppTest.java
 ## Product Backlog (To Do or Doing)
-- [ ] 5. お客さんはしゃけ弁当を1つ390円で買うことができる
+- [x] 5. お客さんはしゃけ弁当を1つ390円で買うことができる
 
   - [ ] 1.購入フローはリンゴと同じ（他の商品と一緒に買える）
 
